@@ -181,42 +181,31 @@ Select >
 
 ## Main Menu
 
-> Add screenshot here
+![Main Menu](screenshots/01-main-menu.png)
 
-```
-screenshots/main-menu.png
-```
+---
+
+## Domain Intelligence
+
+![Domain Intelligence](screenshots/02-domain-intelligence.png)
 
 ---
 
 ## IP Intelligence
 
-> Add screenshot here
-
-```
-screenshots/ip-intelligence.png
-```
+![IP Intelligence](screenshots/03-ip-intelligence.png)
 
 ---
 
 ## DNS Intelligence
 
-> Add screenshot here
-
-```
-screenshots/dns-intelligence.png
-```
+![DNS Intelligence](screenshots/04-dns-intelligence.png)
 
 ---
 
 ## Website Intelligence
 
-> Add screenshot here
-
-```
-screenshots/website-intelligence.png
-```
-
+![Website Intelligence](screenshots/05-website-intelligence.png)
 ---
 
 # 📦 Output Reports
