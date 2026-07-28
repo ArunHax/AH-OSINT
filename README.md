@@ -181,7 +181,7 @@ Select >
 
 ## Main Menu
 
-![Main Menu](screenshots/01-main-menu.png)
+![Main Menu](screenshots/main-menu.png)
 
 ---
 
