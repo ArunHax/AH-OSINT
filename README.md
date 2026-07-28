@@ -177,31 +177,27 @@ Select >
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## Main Menu
+### Main Menu
 
-![Main Menu](screenshots/main-menu.png)
+![Main Menu](screenshots/main-menu.jpg)
 
----
+### Domain Intelligence
 
-## Domain Intelligence
+![Domain Intelligence](screenshots/domain-intelligence.jpg)
 
-![Domain Intelligence](screenshots/02-domain-intelligence.png)
+### IP Intelligence
 
----
+![IP Intelligence](screenshots/ip-intelligence.jpg)
 
-## IP Intelligence
+### DNS Intelligence
 
-![IP Intelligence](screenshots/03-ip-intelligence.png)
+![DNS Intelligence](screenshots/dns-intelligence.png)
 
----
+### Website Intelligence
 
-## DNS Intelligence
-
-![DNS Intelligence](screenshots/04-dns-intelligence.png)
-
----
+![Website Intelligence](screenshots/website-intelligence.jpg)
 
 ## Website Intelligence
 
