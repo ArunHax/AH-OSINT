@@ -199,10 +199,7 @@ Select >
 
 ![Website Intelligence](screenshots/website-intelligence.jpg)
 
-## Website Intelligence
 
-![Website Intelligence](screenshots/05-website-intelligence.png)
----
 
 # 📦 Output Reports
 
