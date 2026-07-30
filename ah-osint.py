@@ -16,7 +16,7 @@ console = Console()
 def execute_scan(module_name, module_function, target):
     result = module_function(target)
 
-    console.print_json(json.dumps(result, indent=4))
+    # console.print_json(json.dumps(result, indent=4))
 
     filename = save_json(module_name, target, result)
 
