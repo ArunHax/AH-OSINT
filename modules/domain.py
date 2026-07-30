@@ -1,6 +1,6 @@
 import re
 import whois
-
+from .rdap import run as rdap
 
 def validate_domain(domain):
     """
@@ -36,7 +36,8 @@ def run(target):
     try:
 
         data = whois.whois(target)
-
+        if not data.registrar and not data.creation_date:
+            data = rdap(target)
         print(f"\nTarget        : {target}")
         print(f"Registrar     : {format_value(data.registrar)}")
         print(f"Creation Date : {format_value(data.creation_date)}")
@@ -44,7 +45,16 @@ def run(target):
         print(f"Expiry Date   : {format_value(data.expiration_date)}")
         print(f"Status        : {format_value(data.status)}")
         print(f"Name Servers  : {format_value(data.name_servers)}")
-
+        
+        return {
+            "target": target,
+            "registrar": format_value(data.registrar),
+            "creation_date": format_value(data.creation_date),
+            "updated_date": format_value(data.updated_date),
+            "expiration_date": format_value(data.expiration_date),
+            "status": format_value(data.status),
+            "name_servers": format_value(data.name_servers),
+        }
     except Exception as e:
         print(f"\n[-] WHOIS lookup failed")
         print(f"Reason : {e}")
